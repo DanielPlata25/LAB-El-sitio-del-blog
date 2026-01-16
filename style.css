@@ -8,93 +8,218 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: black;
+  /* Fondo negro para el body */
+  background-color: #000000; 
+  color: white;
+  font-family: cursive;
 }
-/*? Todo de Navbar */
+body {
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    
+}
+p {
+    font-style: oblique;
+}
+.logo {
+    float: right;
+    width: 150px;
+    height: auto;
+}
+.titulo {
+    color: #d60000; 
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+h2 {
+    color: #d60000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+}
+.horizontal{
+    width: 800px;
+    height: auto;
+    background-color: #d60000;
+    margin-bottom: 20px;
+     border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+}
+.caratula{
+    width: auto;
+    height: 800px;
+    border: 4px solid #d60000;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+.contenedor {
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    font-size: 18px;
+}
+.contenedor1 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    font-size: 18px;
+}
+.contenedor2 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    font-size: 18px;
+}
+.contenedor3 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    font-size: 18px;
+}
+.contenedor4 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    font-size: 18px;
+}
+
+main {
+  flex: 1;
+}
 
 nav {
   width: 100%;
-  padding: 2rem 5%;
-  border-bottom: 1px;
-  margin-bottom: 2rem;
-  background-color: cadetblue;
+  padding: 1.5rem 5%;
+  /* Azul oscuro para el fondo */
+  background-color: #003366; 
+  border-bottom: 3px solid #0059b3;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+nav h2 {
+  color: #ffffff;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-links li a {
-  background-color: white;
-  color: black;
-  position: relative;
-  font-size: 1.05rem;
+  background-color: #ffffff;
+  color: #003366;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.3;
-  font-family: cursive;
-  border-radius: 10px;
-  padding: 5px 10px 5px 10px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 8px 15px;
 }
 
 .nav-links li a:hover {
-  background-color: cyan;
+  /* Efecto azul vibrante */
+  background-color: #00ccff; 
   color: white;
 }
 
-nav h2 {
-  font-family: cursive;
-  color: white;
-}
-
-/*! Parte del footer */
-
+/* --- FOOTER --- */
 footer {
+
+  background-color: #001a33; 
+  color: white;
+  padding: 30px 5% 20px;
+  border-top: 4px solid #003366;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align:right
+}
+
+
+.footer-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: cadetblue;
-
-  padding: 10px 5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer h2 {
-  font-size: 30px;
-  font-family: cursive;
-
-  margin-left: 100px;
+  font-size: 24px;
+  color: #00ccff; 
 }
 
 .nombres {
-  font-family: cursive;
-}
-.list-nombres {
-  font-size: 20px;
-}
-.nombres h2 {
-  font-size: 30px;
-  padding-bottom: 10px;
+  text-align: right;
 }
 
+.nombres h2 {
+  font-size: 24px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+}
+
+.list-nombres li {
+  display: flex;             
+  justify-content: flex-start; 
+  gap: 15px;                
+  white-space: nowrap;       
+  list-style: none;          
+  margin-bottom: 8px;
+}
+
+
+.list-nombres li span.email {
+  color: #00ccff;            
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #003366;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+
 /* ! Parte del nosotros */
-.nosotros {
+.nosotros{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem 5%;
-  background-color: black;
+  background-color: black
 }
 
 .nosotros-contenidoh2 {
   font-size: px;
   font-family: cursive;
   color: white;
+  background-color: #000000;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -113,104 +238,21 @@ footer h2 {
   width: 500px;
   border-radius: 20px;
   margin-top: 20px;
+  
 }
 
-.contenedorContacto {
-  font-family: cursive;
-  position: center;
-  top: 50px;
-  left: 50px;
-  width: 380px;
-  height: 220px;
-  background-color: cadetblue;
-  border: 2px solid black;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-/*Index*/
-
-p {
-  font-style: oblique;
-  color: white;
-}
-
-.logo {
-  float: right;
-  width: 150px;
-  height: auto;
-}
-.titulo {
-  color: #d60000;
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 18px;
-  letter-spacing: 0.5px;
-}
-
-h2 {
-  color: #d60000;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 18px;
-  letter-spacing: 0.3px;
-}
-
-.horizontal {
-  width: 800px;
-  height: auto;
-  background-color: #d60000;
-  margin-bottom: 20px;
-  border-radius: 12px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.caratula {
-  width: auto;
-  height: 800px;
-  border: 4px solid #d60000;
-  border-radius: 12px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-}
-.contenedor {
-  justify-content: center;
-  display: flex;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  font-size: 18px;
-}
-
-.contenedor1 {
-  text-align: center;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  font-size: 18px;
-}
-
-.contenedor2 {
-  text-align: center;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  font-size: 18px;
-}
-
-.contenedor3 {
-  text-align: center;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  font-size: 18px;
-}
-
-.contenedor4 {
-  text-align: center;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  font-size: 18px;
+/* ! Parte del nosotros */
+.contenedorContacto{
+    align-items: center;
+    font-family: cursive;
+    position: center;
+    top: 50px; 
+    left: 50px;
+    width: 380px;
+    height: 220px;
+    background-color: cadetblue; 
+    border: 2px solid black;
+    padding: 15px; 
+    margin-bottom: 20px;
+    border-radius: 8px;
 }

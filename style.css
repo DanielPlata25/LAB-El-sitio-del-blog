@@ -128,3 +128,89 @@ footer h2 {
   margin-bottom: 20px;
   border-radius: 8px;
 }
+
+/*Index*/
+
+p {
+  font-style: oblique;
+  color: white;
+}
+
+.logo {
+  float: right;
+  width: 150px;
+  height: auto;
+}
+.titulo {
+  color: #d60000;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  color: #d60000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
+}
+
+.horizontal {
+  width: 800px;
+  height: auto;
+  background-color: #d60000;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caratula {
+  width: auto;
+  height: 800px;
+  border: 4px solid #d60000;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.contenedor {
+  justify-content: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.contenedor1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.contenedor2 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.contenedor3 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.contenedor4 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
+}
